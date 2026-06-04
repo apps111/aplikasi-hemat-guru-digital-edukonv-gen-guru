@@ -17,7 +17,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Apakah aplikasi ini mendukung Kurikulum Merdeka?","acceptedAnswer":{"@type":"Answer","text":"Ya, Gen Guru dirancang khusus untuk memenuhi kebutuhan dokumen Kurikulum Merdeka dan K13."}},{"@type":"Question","name":"Apakah saya perlu menginstal aplikasi?","acceptedAnswer":{"@type":"Answer","text":"Ini adalah aplikasi berbasis web, Anda bisa langsung akses melalui browser tanpa perlu instalasi rumit."}},{"@type":"Question","name":"Bagaimana jika saya butuh bantuan penggunaan?","acceptedAnswer":{"@type":"Answer","text":"Ada panduan di petunjuk penggunaan pada aplikasi yang mudah dipahami"}}]}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:wght@400;600;700&family=Source%20Sans%20Pro:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=IBM%20Plex%20Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -31,7 +31,6 @@
                 <a href="#benefits">Keunggulan</a>
                 <a href="#features">Fitur</a>
                 <a href="#pricing">Harga</a>
-                <a href="#stats">Statistik</a>
                 <a href="#faq">FAQ</a>
                 <a href="#cta">Beli</a>
             </nav>
@@ -69,34 +68,57 @@
     </section>
 
     <!-- Stats Section -->
-    <section class="stats section-odd variant-dark_bar" id="stats">
+    <section class="stats section-odd variant-gradient_cards">
         <div class="container">
             <div class="stats-grid">
                 
-                <div class="stat-item">
-                    <h3>200+</h3>
-                    <p>Guru Aktif</p>
+                <div class="stat-card">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Guru Aktif</div>
                 </div>
-                <div class="stat-item">
-                    <h3>4.9/5</h3>
-                    <p>Rating Kepuasan</p>
+                <div class="stat-card">
+                    <div class="stat-number">4.9/5</div>
+                    <div class="stat-label">Rating Kepuasan</div>
                 </div>
-                <div class="stat-item">
-                    <h3>15k+</h3>
-                    <p>Dokumen Terbuat</p>
+                <div class="stat-card">
+                    <div class="stat-number">15k+</div>
+                    <div class="stat-label">Dokumen Terbuat</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section section-even variant-centered_title" id="video">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tutorial Penggunaan </h2>
+                <p>Aplikasi EdukonV dan GenGuru</p>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/httpsyoutub?rel=0&modestbranding=1&playsinline=1"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy"
+                        title="Aplikasi HEMAT GURU DIGITAL EduKonv + Gen Guru - Video"
+                    ></iframe>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Gallery Section -->
-    <section class="gallery-section section-odd section-even variant-compact section-decorated" id="gallery">
+    <section class="gallery-section section-odd section-odd variant-grid_3col section-decorated" id="gallery">
         <div class="container">
             <div class="section-header">
                 <h2>Tampilan Aplikasi Simple &amp; Modern</h2>
                 <p>Didesain khusus untuk memudahkan administrasi guru tanpa ribet.</p>
             </div>
-            <div class="gallery-compact">
+            <div class="gallery-grid">
                 
                 <div class="gallery-item">
                     <img src="images/gallery-1.jpg"
@@ -122,12 +144,36 @@
                         <p>Hasil dokumen tersusun rapi sesuai standar kurikulum terbaru, siap unduh dan cetak.</p>
                     </div>
                 </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-4.jpg"
+                         alt="hasil generator gen guru"
+                         loading="lazy">
+                    <div class="gallery-caption">
+                        <p>Menghasilkan file word yang siap pakai tinggal downlod dan edit kembali</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-5.jpg"
+                         alt="Hasil Konversi Nilai EduKonV"
+                         loading="lazy">
+                    <div class="gallery-caption">
+                        <p>Copy paste,uploud excel dan manual fitur konversi nilai dan langsung jadi tinggal download</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-6.png"
+                         alt="Fitur Generator Semua Perangkat AJar"
+                         loading="lazy">
+                    <div class="gallery-caption">
+                        <p>Generator banyak Perangkat ajar yang memudahkan membuat perangkat ajar mudah cepat dan simpel dan desain menarik</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Benefits Section -->
-    <section class="benefits section-odd variant-numbered_services section-decorated" id="benefits">
+    <section class="benefits section-even variant-numbered_services" id="benefits">
         <div class="container">
             <div class="section-header">
                 <h2>Mengapa Guru Memilih Kami?</h2>
@@ -170,7 +216,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features section-even variant-checklist" id="features">
+    <section class="features section-odd variant-checklist section-decorated" id="features">
         <div class="container">
             <div class="section-header">
                 <h2>Fitur Unggulan Guru Digital</h2>
@@ -225,7 +271,7 @@
     </section>
 
     <!-- Pricing Section -->
-    <section class="pricing section-odd variant-featured_tier section-decorated" id="pricing">
+    <section class="pricing section-even variant-cards_horizontal" id="pricing">
         <div class="container">
             <div class="section-header">
                 <h2>Pilih Paket Sesuai Kebutuhan Anda</h2>
@@ -236,45 +282,39 @@
                 <div class="pricing-card">
                     
                     <h3 class="pricing-name">EdukonV</h3>
-                    <div class="pricing-card-body">
-                        <div class="pricing-price">
-                            <span class="price-old">499000</span>
-                            <span class="price-current">99000</span>
-                        </div>
-                        <ul class="pricing-features"><li>Konversi Nilai Otomatis</li><li>Hitung Rata-rata &amp; Ketuntasan</li><li>Target &amp; KKM Fleksibel</li><li>Laporan Rekap Rapi &amp; Akurat</li></ul>
-                        <a href="https://lynk.id/fixclass/ojwggjqjjqqj" class="pricing-cta">Pilih Paket</a>
+                    <div class="pricing-price">
+                        <span class="price-old">499000</span>
+                        <span class="price-current">99000</span>
                     </div>
+                    <ul class="pricing-features"><li>Konversi Nilai Otomatis</li><li>Hitung Rata-rata &amp; Ketuntasan</li><li>Target &amp; KKM Fleksibel</li><li>Laporan Rekap Rapi &amp; Akurat</li></ul>
+                    <a href="https://lynk.id/fixclass/ojwggjqjjqqj" class="pricing-cta">Pilih Paket</a>
                 </div>
                 <div class="pricing-card">
                     
                     <h3 class="pricing-name">GenGuru</h3>
-                    <div class="pricing-card-body">
-                        <div class="pricing-price">
-                            <span class="price-old">499000</span>
-                            <span class="price-current">99000</span>
-                        </div>
-                        <ul class="pricing-features"><li>Generator Modul Ajar &amp; RPP</li><li>Akses Bank Soal &amp; Kisi-kisi</li><li>Prota, Promes &amp; Jurnal</li><li>Input Perangkat Ajar Instan</li></ul>
-                        <a href="https://lynk.id/fixclass/k5oxxl8elvqo" class="pricing-cta">Pilih Paket</a>
+                    <div class="pricing-price">
+                        <span class="price-old">499000</span>
+                        <span class="price-current">99000</span>
                     </div>
+                    <ul class="pricing-features"><li>Generator Modul Ajar &amp; RPP</li><li>Akses Bank Soal &amp; Kisi-kisi</li><li>Prota, Promes &amp; Jurnal</li><li>Input Perangkat Ajar Instan</li></ul>
+                    <a href="https://lynk.id/fixclass/k5oxxl8elvqo" class="pricing-cta">Pilih Paket</a>
                 </div>
                 <div class="pricing-card">
                     
                     <h3 class="pricing-name">Bundle 2 Aplikasi</h3>
-                    <div class="pricing-card-body">
-                        <div class="pricing-price">
-                            <span class="price-old">998000</span>
-                            <span class="price-current">149000</span>
-                        </div>
-                        <ul class="pricing-features"><li>Semua Fitur EduKonv + Gen Guru</li><li>Akses Prioritas Update Fitur</li><li>Tutorial Penggunaan Lengkap</li><li>Harga Bundle Jauh Lebih Hemat</li></ul>
-                        <a href="https://lynk.id/fixclass/17zookendx2g" class="pricing-cta">Pilih Paket</a>
+                    <div class="pricing-price">
+                        <span class="price-old">998000</span>
+                        <span class="price-current">149000</span>
                     </div>
+                    <ul class="pricing-features"><li>Semua Fitur EduKonv + Gen Guru</li><li>Akses Prioritas Update Fitur</li><li>Tutorial Penggunaan Lengkap</li><li>Harga Bundle Jauh Lebih Hemat</li></ul>
+                    <a href="https://lynk.id/fixclass/17zookendx2g" class="pricing-cta">Pilih Paket</a>
                 </div>
             </div>
             <p class="pricing-note">Lisensi berlaku selamanya dengan pembaruan fitur berkala sesuai kurikulum.</p>
         </div>
     </section>
 
-        <section class="faq section-even variant-two_columns" id="faq">
+        <section class="faq section-odd variant-two_columns section-decorated" id="faq">
             <div class="container">
                 <div class="section-header">
                     <h2>Pertanyaan Umum</h2>
@@ -321,7 +361,7 @@
     
 
     <!-- Final CTA Section -->
-    <section class="final-cta section-odd variant-simple_centered" id="cta">
+    <section class="final-cta section-even variant-simple_centered" id="cta">
         <div class="container">
             <h2>Siap Menjadi Guru Digital yang Lebih Produktif?</h2>
             <p>Bergabunglah dengan ratusan guru lainnya dan rasakan kemudahannya sekarang.</p>
@@ -339,7 +379,7 @@
     <!-- Footer - Simple -->
     <footer class="footer-simple">
         <div class="container">
-            <p>© 2026 Aplikasi HEMAT GURU DIGITAL EduKonv + Gen Guru. Hak cipta dilindungi.</p>
+            <p>© 2026 acl Aplikasi HEMAT GURU DIGITAL EduKonv + Gen Guru. Hak cipta dilindungi.</p>
         </div>
     </footer>
 
